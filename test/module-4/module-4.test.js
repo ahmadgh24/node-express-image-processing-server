@@ -218,7 +218,6 @@ describe('module 4', () => {
       ];
 
       const workerStubCall = workerStub.getCall(0);
-      console.log({ expected });
       expect(
         expected,
         'Did you pass `pathToResizeWorker` and the config object to a new instantiation of the `Worker()` class?'
